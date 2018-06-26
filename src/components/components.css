@@ -1,0 +1,299 @@
+/*--global--*/
+
+html, body {
+  height: 100%;
+  background-color: #fafafa;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.yellow {
+  color:#ffc000;
+}
+
+.black {
+  color:#000;
+}
+
+.white {
+  color:#fff;
+}
+
+.lt-gray {
+  color:#afabaa;
+}
+
+.md-gray {
+  color:#757170;
+}
+
+.dk-gray {
+  color:#404040;
+}
+
+.center {
+  text-align: center;
+}
+
+.carousel .slide {
+  background-color: #fafafa;
+}
+
+.landing2-content container-fluid {
+  padding:0;
+}
+
+.text-head {
+  font-size: 20px;
+}
+
+.text-sub{
+  font-size: 15px;
+}
+
+.inline {
+  display: inline;
+}
+
+/*--navbar--*/
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #c2c2c2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.app-li {
+  font-size: 15px;
+}
+
+.navbar-default {
+  margin: 0;
+  background-color: #000;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-brand {
+  padding: 0;
+  background-color: #000;
+}
+
+.padlac-logo {
+  width: auto;
+  height: 50px;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav .open a{
+  color:#fff;
+  background-color: #000;
+}
+
+.navbar-nav li .dropdown-menu{
+  background-color: #000;
+}
+
+/*--landing-banner--*/
+.carousel-content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-header{
+  position: absolute;
+  top: 25%;
+  left: 150px;
+  text-align: left;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.banner-header h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+}
+
+.banner-header h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.banner-btn {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+}
+
+.banner-btn:hover {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+  cursor: pointer;
+}
+/*--landing-about--*/
+.landing-about {
+  height: auto;
+}
+.lvalue-img {
+  height: 50px;
+  width: auto;
+}
+
+/*--landing-services--*/
+.landing-serv {
+  height: auto;
+}
+
+.lserv-img {
+  padding-top:15px;
+  height: 150px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lserv-box {
+  height: 550px;
+  box-shadow: 5px 10px 10px #afabaa;
+  background-color: #fff;
+}
+
+.lserv-list {
+  height: 250px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.lserv-items {
+  font-size: 25px;
+}
+
+.lserv-btn {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lserv-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+}
+
+.lserv-btn:hover {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/*--landing-clients--*/
+.landing-clients {
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.clients-container {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.clients-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.clients-img:hover {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+/*--landing-contact--*/
+.landing-contact {
+  height: 300px;
+}
+
+.landing-details {
+  background-color: #afabaa;
+}
+
+/*--footer--*/
+.footer {
+  background-color: #000;
+  margin: 0;
+  height: auto;
+}
+
+.footer-logo {
+  margin-top: 15px;
+  height: 25px;
+  width: auto;
+}
+
+.footer-menu a{
+  margin-top: 15px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+/*--globalchangeable--*/
+
+.header{
+  font-family: 'Raleway',  sans-serif;
+  font-size: 50px;
+  color: #000;
+  text-shadow: 2px 2px 2px #777;
+  font-weight: 700;
+}
+
+.sub-header{
+  font-family: 'Orbitron',  sans-serif;
+  font-size: 35px;
+  color: #000;
+  text-shadow: 2px 2px 2px #777;
+}
