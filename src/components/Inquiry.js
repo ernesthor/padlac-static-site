@@ -4,6 +4,7 @@ import { Field, reduxForm } from 'redux-form'
 import Captcha from './Captcha.js'
 
 const required = value => (value ? undefined : 'Required!')
+const chkbox = value => (value ? undefined : 'Please check the box!')
 const alphabet = value =>
 	value && /[^a-zA-Z ]/i.test(value)
 		? 'Only alphabet characters'
@@ -12,11 +13,11 @@ const email = value =>
 	value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)
 		? 'Invalid email address'
 		: undefined
+
 const number = value =>
 	value && /[^0-9]/i.test(value)
 		? 'Only numeric characters'
 		: undefined
-
 const renderField = ({
   input,
   label,
@@ -33,7 +34,7 @@ const SignUpForm = props => {
 const { handleSubmit, pristine, submitting } = props
 return (
 		<div>
-			<form method="POST" action="https://formspree.io/padlacemail@gmail.com">
+			<form method="POST" action="https://formspree.io/enquiries@padlacconstruction.com">
 				<div className="form-group">
 					<Field name="name" component={renderField} type="text" placeholder="Name"
 					className="form-control" label="Name" validate={[required]} warn={alphabet }/>
@@ -55,8 +56,7 @@ return (
 					className="form-control" label="Message" rows="7" validate={required}/>
 				</div>
 				<div className="form-group">
-					<p> Please read our <a href="/terms" to="/terms"> Terms and Condition </a> and <a href="/privacy" to="/privacy"> Privacy Policy </a> to protect your information
-					to protect your information </p>
+					<p> Please read our <a href="/terms" to="/terms"> Terms and Condition </a> and <a href="/privacy" to="/privacy"> Privacy Policy </a> to protect your information </p>
 				</div>
 				<div className="form-group row">
 					<div className="col-md-6 form-captcha">

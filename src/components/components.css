@@ -55,6 +55,20 @@ html, body {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+hr {
+  background-color: #ffc000;
+  border-color: #ffc000;
+  color: #ffc000;
+}
 /*--navbar--*/
 
 .navbar-default .navbar-nav li a {
@@ -89,7 +103,7 @@ html, body {
 .padlac-logo {
   width: auto;
   height: 50px;
-  margin: 0;
+  padding: 15px;
 }
 
 .navbar-default .navbar-nav .open a{
@@ -171,19 +185,60 @@ html, body {
 }
 
 .lserv-box {
-  height: 550px;
+  height: 575px;
   box-shadow: 5px 10px 10px #afabaa;
   background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .lserv-list {
-  height: 250px;
-  padding-right: 10px;
-  padding-left: 10px;
+  height: 275px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.lserv-list ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+
+.lserv-list ul:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffc000;
+}
+
+.lserv-list ul li {
+  padding: 10px 20px 10px 20px;
+}
+
+.lserv-list ul li div {
+  padding: 0 10px;
+}
+
+.lserv-list ul li span {
+  color: #000;
+  position: absolute;
+  left: -15px;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 3px 0px 10px 0px;
+  border: 1px solid #ffc000;
+  text-align: center;
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 
 .lserv-items {
-  font-size: 25px;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 .lserv-btn {
@@ -214,7 +269,7 @@ html, body {
   background: #000;
   border: 0;
   display: block;
-  width: 200px;
+  width: 250px;
   margin-right: auto;
   margin-left: auto;
   cursor: pointer;
@@ -259,6 +314,7 @@ html, body {
 
 .landing-details {
   background-color: #afabaa;
+  padding-bottom: 20px;
 }
 
 /*--footer--*/
@@ -269,8 +325,8 @@ html, body {
 }
 
 .footer-logo {
-  margin-top: 15px;
-  height: 25px;
+  margin-top: 30px;
+  height: 75px;
   width: auto;
 }
 
@@ -279,6 +335,25 @@ html, body {
   margin-right: 10px;
   color: white;
   text-decoration: underline;
+}
+
+.footer-copy {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*--form--*/
+.checkboxes label {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  padding-left: 22px;
+  text-indent: -22px;
+}
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
 }
 
 /*--globalchangeable--*/
@@ -294,6 +369,6 @@ html, body {
 .sub-header{
   font-family: 'Orbitron',  sans-serif;
   font-size: 35px;
-  color: #000;
-  text-shadow: 2px 2px 2px #777;
+  color: #ffc000;
+  text-shadow: 1px 1px 1px #000;
 }

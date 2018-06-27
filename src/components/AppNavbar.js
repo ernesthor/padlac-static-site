@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './components.css'
 
-const padlacLogo = './assets/padlac-logo.png'
+const padlacLogo = './assets/padlac-navbar-logo.png'
 
 export default class AppNavbar extends Component {
   render () {
