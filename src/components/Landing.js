@@ -29,17 +29,17 @@ export default class Landing extends Component {
               <div className="carousel-content">
                 <img src={Banner2} />
                 <div className="banner-header">
-                  <h1 className="banner-up yellow"> Slogan 2 </h1>
-                  <h2 className="banner-down yellow"> Sub Slogan 2 </h2>
-                  <Button className="banner-btn" href="/contact" to="/contact"> Inquire Now </Button>
+                  <h1 className="banner-up yellow"> Trustworthy and Hardwoking </h1>
+                  <h2 className="banner-down yellow"> "Good man power are the Bread and Butter of any Construction Company" </h2>
+                  <Button className="banner-btn" href="/about" to="/about"> Read More </Button>
                 </div>
               </div>
               <div className="carousel-content">
                 <img src={Banner3} />
                 <div className="banner-header">
-                  <h1 className="banner-up yellow"> Slogan 3</h1>
-                  <h2 className="banner-down yellow"> Sub Slogan 3 </h2>
-                  <Button className="banner-btn" href="/contact" to="/contact"> Inquire Now </Button>
+                  <h1 className="banner-up yellow"> Be the contractor of choice </h1>
+                  <h2 className="banner-down yellow"> "Giving superior client satisfaction and outstanding quality Service" </h2>
+                  <Button className="banner-btn" href="/services" to="/services"> Check now </Button>
                 </div>
               </div>
             </Carousel>

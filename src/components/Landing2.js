@@ -49,18 +49,18 @@ export default class Landing extends Component {
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <h1 className="sub-header">Our Value</h1>
                 <Row>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                     <h3><img src={P} className="lvalue-img"/>Passion</h3>
                   </Col>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                     <h3><img src={I} className="lvalue-img"/>Integrity</h3>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                     <h3><img src={C} className="lvalue-img"/>Commitment</h3>
                   </Col>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                     <h3><img src={S} className="lvalue-img"/>Safety and Quality</h3>
                   </Col>
                 </Row>
@@ -72,7 +72,7 @@ export default class Landing extends Component {
             <h2 className="header center"> Services </h2>
             <hr/>
           <Row className="landing-serv">
-          <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <div className="lserv-box">
               <img src={project} className="lserv-img"/>
               <h2 className="lserv-title center"> Design </h2>
@@ -107,7 +107,7 @@ export default class Landing extends Component {
               <Button to="/services" href="/services" className="lserv-btn"> Learn More </Button>
             </div>
           </Col>
-          <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <div className="lserv-box">
               <img src={crane} className="lserv-img"/>
               <h2 className="lserv-title center"> Construction </h2>
@@ -142,7 +142,7 @@ export default class Landing extends Component {
               <Button to="/services" href="/services" className="lserv-btn"> Learn More </Button>
             </div>
           </Col>
-          <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+          <Col xs={12} sm={6} smOffset={3} md={4} mdOffset={0} lg={4} xl={4}>
             <div className="lserv-box">
               <img src={maintenance} className="lserv-img"/>
               <h2 className="lserv-title center"> Project Management </h2>
@@ -171,18 +171,18 @@ export default class Landing extends Component {
             <h2 className="header center"> Clients </h2>
             <hr/>
           <Row className="landing-clients">
-            <div className="clients-container">
+            <Col xs={4} xsOffset={4} sm={6} smOffset={4} md={10} mdOffset={4} lg={12} lgOffset={2} xl={12}>
               <img src={wellman} className="clients-img" alt="wellman"/>
               <img src={hyundai} className="clients-img" alt="hyundai"/>
               <img src={mwc} className="clients-img" alt="mwc"/>
               <img src={actuate} className="clients-img" alt="actuate"/>
-            </div>
+            </Col>
           </Row>
         </div>
-        <div className="landing-details">
+        <div className="landing-contact">
           <div className="container">
               <h2 className="header center"> Contact Us </h2>
-            <Row className="landing-contact">
+            <Row className="landing-form">
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <h3 className="sub-header"> Inquire! </h3>
                 <Inquiry/>
