@@ -16,6 +16,8 @@ const actuate = './assets/actuate.png';
 const hyundai = './assets/hyundai.png';
 const mwc = './assets/mwc.png';
 const wellman = './assets/wellman.png';
+const samsung = './assets/samsung.png';
+const mdc = './assets/mdc.png';
 const P = './assets/P.png';
 const I = './assets/I.png';
 const C = './assets/C.png';
@@ -32,7 +34,7 @@ export default class Landing extends Component {
           <Row className="landing-about">
             <Row>
               <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-                <h4 className="text-head center"> Our Company Motto is , "Doing it Right costs less, than Doing it OVER!". </h4>
+                <h4 className="text-head center"> "Doing it Right costs less, than Doing it OVER!". </h4>
                 <p className="text-sub"> With the experience and passion in the Construction Industry,
                   Giordan Padro and Engr. Jorge Lacanilao founded PADLAC Construction.
                   PLC is backed by their sister company Reowex Pty Ltd, which is a manufacturing company located in Melbourne,
@@ -44,7 +46,7 @@ export default class Landing extends Component {
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <h1 className="sub-header">Our Mission</h1>
                 <p className="text-head">‘To be the Contractor of choice”. By giving superior client satisfaction and outstanding quality service.</p>
-                <p className="text-sub">PADLAC Construction’s mission is to deliver service with high standard, thru the use of modern technologies and newly innovated methodologies in Construction Industry.</p>
+                <p className="text-sub">PADLAC Construction’s mission is to deliver high standard service, thru the use of modern technologies and newly innovated methodologies in Construction Industry.</p>
               </Col>
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <h1 className="sub-header">Our Value</h1>
@@ -170,12 +172,14 @@ export default class Landing extends Component {
         <div className="container">
             <h2 className="header center"> Clients </h2>
             <hr/>
-          <Row className="landing-clients">
-            <Col xs={4} xsOffset={4} sm={6} smOffset={4} md={10} mdOffset={4} lg={12} lgOffset={2} xl={12}>
+          <Row className="landing-clients center">
+            <Col xs={4} xsOffset={4} sm={6} smOffset={4} md={12} mdOffset={0} lg={12} lgOffset={0} xl={12} xlOffset={0}>
               <img src={wellman} className="clients-img" alt="wellman"/>
               <img src={hyundai} className="clients-img" alt="hyundai"/>
               <img src={mwc} className="clients-img" alt="mwc"/>
               <img src={actuate} className="clients-img" alt="actuate"/>
+              <img src={samsung} className="clients-img" alt="samsung"/>
+              <img src={mdc} className="clients-img" alt="mdc"/>
             </Col>
           </Row>
         </div>

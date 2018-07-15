@@ -59,11 +59,11 @@ return (
 					<p> Please read our <a href="/terms" to="/terms"> Terms and Condition </a> and <a href="/privacy" to="/privacy"> Privacy Policy </a> to protect your information </p>
 				</div>
 				<div className="form-group row">
-					<div className="col-md-6 form-captcha">
+					<div className="col-xs-12 col-sm-6 col-md-6 form-captcha">
 						<Field name="recaptcha" component={Captcha}
 						className="form-control" validate={required} />
 					</div>
-					<div className="col-md-6">
+					<div className="col-xs-12 col-sm-6 col-md-6">
 						<button type="submit" disabled={pristine || submitting} color="light" className="signup-btn"> Send </button>
 					</div>
 				</div>

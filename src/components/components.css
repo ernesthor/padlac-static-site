@@ -237,10 +237,55 @@ hr {
   }
 
   .banner-btn:hover {
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    border-radius: 0;
+    color: #fff;
+    background: #000;
+    border: 0;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .banner-header{
+    position: absolute;
+    top: 35%;
+    left: 150px;
+    text-align: left;
+    text-shadow: 2px 2px 2px #000;
+  }
+
+  .banner-header h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+  }
+
+  .banner-header h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+
+  .banner-btn {
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 0;
+    color: #fff;
+    background: #000;
+    border: 0;
+  }
+
+  .banner-btn:hover {
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     border-radius: 0;
     color: #fff;
     background: #000;
