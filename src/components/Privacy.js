@@ -19,7 +19,7 @@ export default class Privacy extends Component {
             <h2 className="header center"> Privacy Policy </h2>
             <p className="tp-head"> (Updated on 18 July 2018) <br /><br /> </p>
             <p className="tp-content">
-              PADLAC CONSTRUCTION ("us", "we", or "our") operates the pthe <a href="https://padlac-construction.firebaseapp.com/">https:&#047;&#047;padlac-construction.firebaseapp.com website </a> (the "Service").<br /><br />
+              PADLAC CONSTRUCTION ("us", "we", or "our") operates the <a href="https://padlac-construction.firebaseapp.com/">https:&#047;&#047;padlac-construction.firebaseapp.com website </a> (the "Service").<br /><br />
               This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.<br /><br />
               We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
               Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
