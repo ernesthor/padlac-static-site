@@ -32,7 +32,7 @@ export default class Footer extends Component {
             <Row className="center">
               <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                 <span className="footer-copy">PadLac Construction &#169; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;</span>
-                <span className="footer-copy">Designed by: <strong> Thor Tech Solutions </strong> </span>
+                <span className="footer-copy">Designed by: <strong> CMGC Solutions </strong> </span>
               </Col>
               <Col xs={12} sm={6} md={6} lg={6} xl={6} className="footer-menu">
                 <Link href="/" to="/"> Home </Link>

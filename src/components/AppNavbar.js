@@ -30,6 +30,9 @@ export default class AppNavbar extends Component {
             <NavItem eventKey={4} componentClass={Link}  className="app-li" href="/contact" to="/contact">
               Contact
             </NavItem>
+            <NavItem eventKey={5} componentClass={Link}  className="app-li" href="/careers" to="/careers">
+              Careers
+            </NavItem>
 
           </Nav>
         </Navbar.Collapse>

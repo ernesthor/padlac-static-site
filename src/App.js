@@ -12,6 +12,7 @@ import AppNavbar from './components/AppNavbar';
 import About from './components/About';
 import Services from './components/Services';
 import ContactUs from './components/ContactUs';
+import Careers from './components/Careers';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import Terms from './components/Terms';
@@ -27,6 +28,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/contact" component={ContactUs} />
+          <Route path="/careers" component={Careers} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/terms" component={Terms} />
           <Route path="/404" component={E404} />

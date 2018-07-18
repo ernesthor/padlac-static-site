@@ -29,7 +29,7 @@ export default class Landing extends Component {
     return (
       <div className="landing2-content">
         <div className="container">
-            <h2 className="header center"> About </h2>
+            <h2 className="header center"> About Us </h2>
             <hr/>
           <Row className="landing-about">
             <Row>
@@ -51,18 +51,18 @@ export default class Landing extends Component {
               <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                 <h1 className="sub-header">Our Value</h1>
                 <Row>
-                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                  <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                     <h3><img src={P} className="lvalue-img"/>Passion</h3>
                   </Col>
-                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                  <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                     <h3><img src={I} className="lvalue-img"/>Integrity</h3>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                  <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                     <h3><img src={C} className="lvalue-img"/>Commitment</h3>
                   </Col>
-                  <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                  <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                     <h3><img src={S} className="lvalue-img"/>Safety and Quality</h3>
                   </Col>
                 </Row>
