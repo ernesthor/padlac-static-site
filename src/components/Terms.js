@@ -26,7 +26,7 @@ export default class Careers extends Component {
             <br />
             <p className="tp-head bold"> Intellectual Property Rights </p>
             <p className="tp-content">
-              Other than the content you own, under these Terms, PADLAC and/or its licensors own all the intellectual property rights and materials contained in this Website. <br/><br/>
+              Other than the content you own, under these Terms, PADLAC CONSTRUCTION and/or its licensors own all the intellectual property rights and materials contained in this Website. <br/><br/>
               You are granted limited license only for purposes of viewing the material contained on this Website.
             </p>
             <br />
@@ -66,7 +66,7 @@ export default class Careers extends Component {
             <br />
             <p className="tp-head bold">Indemnification</p>
             <p className="tp-content">
-              You hereby indemnify to the fullest extent PADLAC from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.
+              You hereby indemnify to the fullest extent PADLAC CONSTRUCTION from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.
             </p>
             <br />
             <p className="tp-head bold">Severability </p>
@@ -76,12 +76,12 @@ export default class Careers extends Component {
             <br />
             <p className="tp-head bold">Variation of Terms </p>
             <p className="tp-content">
-              PADLAC is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.
+              PADLAC CONSTRUCTION is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.
             </p>
             <br />
             <p className="tp-head bold">Assignment </p>
             <p className="tp-content">
-              The PADLAC is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.
+              The PADLAC CONSTRUCTION is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.
             </p>
             <br />
             <p className="tp-head bold">Entire Agreement </p>

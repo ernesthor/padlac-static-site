@@ -74,7 +74,7 @@ export default class Privacy extends Component {
             <br />
             <p className="tp-head bold">Use of Data</p>
             <p className="tp-content">
-              PADLAC uses the collected data for various purposes: <br /><br />
+              PADLAC CONSTRUCTION uses the collected data for various purposes: <br /><br />
               <ul>
                 <li> To provide and maintain the services</li>
                 <li> To notify you about changes to our services </li>
@@ -91,16 +91,16 @@ export default class Privacy extends Component {
               Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction. <br /><br />
               If you are located outside Philippines and choose to provide information to us, please note that we transfer the data, including Personal Data, to Philippines and process it there. <br /><br />
               Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer. <br /><br />
-              PADLAC will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+              PADLAC CONSTRUCTION will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
             </p>
             <br />
             <p className="tp-head bold">Disclosure of Data</p>
             <p className="tp-content">
               Legal Requirements <br /><br />
-              PADLAC may disclose your Personal Data in the good faith belief that such action is necessary to: <br /><br />
+              PADLAC CONSTRUCTION may disclose your Personal Data in the good faith belief that such action is necessary to: <br /><br />
               <ul>
                 <li>To comply with a legal obligation</li>
-                <li>To protect and defend the rights or property of PADLAC</li>
+                <li>To protect and defend the rights or property of PADLAC CONSTRUCTION</li>
                 <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
                 <li>To protect the personal safety of users of the Service or the public</li>
                 <li>To protect against legal liability</li>

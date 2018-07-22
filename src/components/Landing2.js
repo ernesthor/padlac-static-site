@@ -36,7 +36,7 @@ export default class Landing extends Component {
               <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <h4 className="text-head center"> "Doing it Right costs less, than Doing it OVER!". </h4>
                 <p className="text-sub"> With the experience and passion in the Construction Industry,
-                  Giordan Padro and Engr. Jorge Lacanilao founded PADLAC Construction.
+                  Arch. Gregg L. Padro, MIML, AIB, Mr, Giordan R. Padro, AFIML, RMT, and Engr. Jorge B. Lacanilao founded PADLAC Construction.
                   PLC is backed by their sister company Reowex Pty Ltd, which is a manufacturing company located in Melbourne,
                   Australia. Reowex plays a major role in the construction industry in the whole state of Victoria in Australia.
                 </p>
