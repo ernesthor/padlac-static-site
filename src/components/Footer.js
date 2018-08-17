@@ -18,7 +18,7 @@ export default class Footer extends Component {
               <Col xs={12} sm={12} md={4} lg={4} xl={4}>
                 <h2 className="sub-header"> Office Hours </h2>
                 <h4 className="inline"> Monday to Friday : </h4> <h5 className="inline"> 8:00 AM - 5:00 PM </h5> <br/>
-                <h4 className="inline"> Saturday : </h4> <h5 className="inline"> 8:00 AM - 5:00 PM </h5> <br/>
+                <h4 className="inline"> Saturday : </h4> <h5 className="inline"> 8:00 AM - 5:00 PM (Site office) </h5> <br/>
                 <h4 className="inline"> Sunday: </h4> <h5 className="inline"> Closed </h5> <br/>
               </Col>
               <Col xs={12} sm={12} md={4} lg={4} xl={4}>

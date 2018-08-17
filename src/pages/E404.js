@@ -9,13 +9,17 @@ export default class E404 extends Component {
     return (
       <div className="padlac-container">
         <div className="padlac-content">
-            <Alert bsStyle="warning">
-              <h1><strong>Error 404</strong></h1>
-              <h2><strong>Page Not Found</strong></h2>
-              <h3>Page is under construction please go back to Home</h3>
-              <Link to href="/" to="/"> Go back to home </Link>
-            </Alert>
+          <AppNavbar/>
+          <div>
+          <Alert bsStyle="warning">
+            <h1><strong>Error 404</strong></h1>
+            <h2><strong>Page Not Found</strong></h2>
+            <h3>Link may be broken or page is under construction</h3>
+            <Link to href="/" to="/"> Please go back to home </Link>
+          </Alert>
+          </div>
         </div>
+        <Footer/>
       </div>
     )
   }

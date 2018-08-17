@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux'
 
 import logo from './logo.svg';
@@ -9,13 +9,14 @@ import store from './store'
 
 import Home from './pages/Home';
 import AppNavbar from './components/AppNavbar';
-import About from './components/About';
-import Services from './components/Services';
-import ContactUs from './components/ContactUs';
-import Careers from './components/Careers';
-import Footer from './components/Footer';
 import Privacy from './components/Privacy';
 import Terms from './components/Terms';
+import Footer from './components/Footer';
+
+import About from './pages/About';
+import Services from './pages/Services';
+import ContactUs from './pages/ContactUs';
+import Careers from './pages/Careers';
 import E404 from './pages/E404';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
       <Provider store={store}>
       <Router>
         <div>
+          <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
@@ -31,7 +33,8 @@ class App extends Component {
           <Route path="/careers" component={Careers} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/terms" component={Terms} />
-          <Route path="/404" component={E404} />
+          <Route component={E404} />
+          </Switch>
         </div>
       </Router>
       </Provider>
